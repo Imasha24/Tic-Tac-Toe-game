@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    background: linear-gradient(to right, #db98d6, #e61a68a2);
     color: #333;
   }
   
@@ -18,8 +18,8 @@ body {
   }
 
   .cell {
-    background-color: #fff;
-    border: 2px solid #333;
+    background-color: #ffffff;
+    border: 2px solid #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,5 +31,5 @@ body {
   }
   
   .cell:hover {
-    background-color: #e3e3e3;
+    background-color: #68083c;
   }
