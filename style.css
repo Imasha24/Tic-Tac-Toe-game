@@ -33,3 +33,22 @@ body {
   .cell:hover {
     background-color: #68083c;
   }
+
+  @media (max-width: 600px) {
+    .cell {
+        width: 60px;
+        height: 60px;
+    }
+  
+    #tic-tac-toe-board {
+        grid-template-columns: repeat(3, 60px);
+        grid-template-rows: repeat(3, 60px);
+    }
+  }
+
+  .game-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+  }
